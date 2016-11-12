@@ -83,6 +83,9 @@
 				google.maps.event.trigger(me.map, 'resize');
 				me.map.setCenter(me.myLatLng);
 				hideflymenu();
+				JQ("body").animate({
+					scrollTop: 0
+				}, 600);
 			}
 
 			function hideflymenu(){
@@ -174,7 +177,7 @@
 						<div class="footerHalf">
 							<div class="footerItem title" onclick=setContent('aboutus')>About us</div>
 							<div class="footerItem title" onclick=setContent('product')>Product</div>
-							<div class="footerItem title" onclick=setContent('contactus')>Contact Us</div>
+							<div class="footerItem title" onclick=setContent('contactus')>ContactUs</div>
 							<div class="footerItem title"><a href="http://www.yahoo.com.tw" target="_blank">Market</a></div>
 							
 						</div>
@@ -191,7 +194,7 @@
 					<div class="menuItem" onclick=setContent('aboutus')>關於M3718</div>
 					<div class="menuItem" onclick=setContent('product')>產品資訊</div>
 					<div class="menuItem" onclick=setContent('contactus')>聯絡我們</div>
-					<div class="menuItem" onclick=setContent('contactus')>線上門市</div>
+					<div class="menuItem"><a href="http://www.yahoo.com.tw" target="_blank">線上門市</a></div>
 					<div class="menuItem alignCenter" onclick=hideflymenu()>back</div>
 			</div>
 		</div>
