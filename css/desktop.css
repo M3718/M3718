@@ -172,7 +172,8 @@ h2{
 #mapContainer{
 	width:600px;
 	height: 500px;
-	margin: 10px 0px 10px 0px;
+	position: relative;
+	margin: 0 auto;
 }
 
 .page{
