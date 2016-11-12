@@ -3,7 +3,8 @@
 	height:100%;
 	z-index: 1;
 	color:#e8d4a8;
-	background-color: #565043;
+	background-color: #423D34;
+	background-image: url(../images/bg.png);
 	overflow-x:hidden;
 }
 
@@ -27,6 +28,7 @@ a {
 	/*background-color: #dcc796;*/
 	z-index: 10;
 	color:#dcc796;
+	padding-bottom: 30px;
 }
 .footer .textContent{
 	width: 100%;
@@ -60,11 +62,19 @@ a {
 
 .footerHalf .footerItem{
 	width:100%;
+	min-width: 100px;
 	height:30px;
 	overflow: hidden;
 	text-align: center;
+	cursor:pointer;
 }
+.footerHalf .footerItem:hover{
+	color: #fde6b4;
+}
+
+
+	
 .footerHalf .footerItem.title{
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 500;
 }
