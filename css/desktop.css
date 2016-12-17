@@ -5,6 +5,7 @@
 	position: relative;
 
 	background-color: #756d5c;
+	padding-bottom: 10px;
 }
 .spacer2{
 	width:80%;
@@ -140,11 +141,12 @@ h2{
 
 .productItem{ /* this is a tag*/
 	display: block;
-	width:100%;
+	width:50%;
 	height:200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	overflow: hidden;
+	float:left;
 }
 .productItem.hide{ /* this is a tag*/
 	display: none;
@@ -178,6 +180,8 @@ h2{
 .page{
 	width:100%;
 	height: auto;
+	margin-bottom: 20px;
 	min-height: 600px;
+	overflow: hidden;
 	display: none;
 }
