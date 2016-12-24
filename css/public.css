@@ -1,8 +1,4 @@
-﻿@font-face {
-    font-family: "王漢宗超明";
-    src: url(wt005.ttf);
-}
-body{
+﻿body{
 	width:100%;
 	
 	z-index: 1;
@@ -10,9 +6,6 @@ body{
 	background-color: #5b5343;
 	background-image: url(../images/bg.png);
 	overflow-x:hidden;
-
-	font-family: "王漢宗超明";
-    font-size: 21px;
 }
 
 a {
